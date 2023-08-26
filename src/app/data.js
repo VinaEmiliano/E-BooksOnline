@@ -1,3 +1,6 @@
+import ebookCover from "../../public/ebookCover.png"
+import psyCover from "../../public/psyCover.jpg"
+
 export const categories = [
   {
     id:1,
@@ -64,10 +67,29 @@ export const physicalbooks = [
   }
 ]
 
+/* MARKET */
+
+export const productType = [
+  {
+    title:"Ebooks",
+    desc:"Explore our ebooks",
+    img:ebookCover,
+    tag:"virtual"
+  },
+  {
+    title: "Physical Books",
+    desc:"Explore our physical books",
+    img:psyCover,
+    tag:"physical"
+  }
+]
+
+/* ABOUT */
+
 export const aboutData = [
   {
     title:"Our Story",
-    desc:"Founded in [Year of Foundation], [Store Name] was born from the vision of [Founder(s) Name], who aimed to create a space where people could explore a wide range of literary genres, from timeless classics to contemporary authors. Over the years, we've grown and evolved, but our commitment to excellence in book selection and the shopping experience has always remained steadfast."
+    desc:"Founded in 2023, E-books-Online was born from the vision of Emiliano Viña, who aimed to create a space where people could explore a wide range of literary genres, from timeless classics to contemporary authors. Over the years, we've grown and evolved, but our commitment to excellence in book selection and the shopping experience has always remained steadfast."
   },
   {
     title:"Our Mission",
@@ -83,6 +105,6 @@ export const aboutData = [
   },
   {
     title:'Join Our Community',
-    desc:"More than just a store, we're a community of book enthusiasts. Join us on [Social Media] to stay updated on the latest literary releases, engage in exciting conversations, and share your own recommendations. We also host online events such as book clubs and author talks, allowing you to connect with others who share your passion for books."
+    desc:"More than just a store, we're a community of book enthusiasts. Join us on @E-books-Online to stay updated on the latest literary releases, engage in exciting conversations, and share your own recommendations. We also host online events such as book clubs and author talks, allowing you to connect with others who share your passion for books."
   },
 ]

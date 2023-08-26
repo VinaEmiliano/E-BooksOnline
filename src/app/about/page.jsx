@@ -9,7 +9,7 @@ const aboutPage = () => {
         <article>
           <div>
             <p>
-            At [Store Name], we're passionate about connecting book lovers with exciting stories, enriching knowledge, and imaginative worlds. Since our foundation, we've been dedicated to building a community where books open doors to new adventures and learning.
+            At E-books-Online, we're passionate about connecting book lovers with exciting stories, enriching knowledge, and imaginative worlds. Since our foundation, we've been dedicated to building a community where books open doors to new adventures and learning.
             </p>
           </div>
           <div>
@@ -22,11 +22,11 @@ const aboutPage = () => {
           </div>
           <div>
             <p>
-              Thank you for visiting [Store Name]. We hope you find inspiration, entertainment, and knowledge within our pages. If you have any questions or need assistance, feel free to reach out to our customer support team.
+              Thank you for visiting E-books-Online. We hope you find inspiration, entertainment, and knowledge within our pages. If you have any questions or need assistance, feel free to reach out to our customer support team.
             </p>
-            <p>
+            <span>
               Happy reading!
-            </p>
+            </span>
           </div>
         </article>
       </div>
