@@ -16,57 +16,6 @@ export const categories = [
   }
 ]
 
-export const ebooks = [
-  {
-    id:1,
-    title:'ebook-1',
-    desc:'desctiption-1',
-  },
-  {
-    id:2,
-    title:'ebook-2',
-    desc:'desctiption-2',
-  },
-  {
-    id:3,
-    title:'ebook-3',
-    desc:'desctiption-3',
-  },
-  {
-    id:4,
-    title:'ebook-4',
-    desc:'desctiption-4',
-  },
-  {
-    id:5,
-    title:'ebook-5',
-    desc:'desctiption-5',
-  }
-]
-
-export const physicalbooks = [
-  {
-    id:11,
-    title:'phsysicalbooks-',
-    desc:'desctiption-1',
-  },
-  {
-    id:2,
-    title:'phsysicalbooks-2',
-    desc:'desctiption-2',
-  },
-  {
-    id:33,
-    title:'phsysicalbooks-3',
-    desc:'desctiption-3',
-  },
-  {
-    id:4,
-    title:'phsysicalbooks-4',
-    desc:'desctiption-4',
-  }
-]
-
 /* MARKET */
 
 export const productType = [
@@ -74,13 +23,13 @@ export const productType = [
     title:"Ebooks",
     desc:"Explore our ebooks",
     img:ebookCover,
-    tag:"virtual"
+    tag:"virtualEbooks"
   },
   {
     title: "Physical Books",
     desc:"Explore our physical books",
     img:psyCover,
-    tag:"physical"
+    tag:"physicalbooks"
   }
 ]
 

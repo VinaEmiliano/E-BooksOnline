@@ -6,11 +6,10 @@ import Link from 'next/link'
 const ProductSelector = () => {
   
   return (
-    <main>
+    <main className='h-[calc(100vh-65px)]'>
       <div className='flex justify-around items-center text-center h-[50vh]'>
         {productType.map( type => (
           <Link
-/*             onClick={e => setTypeOfProduct(e.target.value)} */
             href={`/market/${type.tag}`}
             value={type.value}
             key={type.value}

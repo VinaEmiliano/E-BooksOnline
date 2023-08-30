@@ -1,32 +1,31 @@
 import React from 'react'
 import { aboutData } from '../data'
+import AboutPresentation from '../components/AboutPresentation'
+import AboutFarewell from '../components/AboutFarewell'
 
 const aboutPage = () => {
   return (
     <main>
-      <div>
-        <h1>Welcome to our online bookstore!</h1>
+      <div className='flex flex-col gap-4 mt-4 mb-6'>
+        <h1 className='text-xl md:text-4xl'>Welcome to <span className='font-bold text-orange-600'>E-Books-Online !!</span></h1>
+        <h2 className=' text-lg md:text-2xl'>Your favorite online bookstore!</h2>
         <article>
           <div>
-            <p>
-            At E-books-Online, we're passionate about connecting book lovers with exciting stories, enriching knowledge, and imaginative worlds. Since our foundation, we've been dedicated to building a community where books open doors to new adventures and learning.
-            </p>
+            <AboutPresentation/>
           </div>
           <div>
             {aboutData.map(info => (
-              <div key={info.title}>
-                <span>{info.title}</span>
+              <div className='mb-2 p-3 bg-orange-100' key={info.title}>
+                <p className='mb-1'><span className='font-bold'>{info.title}</span></p>
                 <p>{info.desc}</p>
               </div>
             ))}
           </div>
           <div>
-            <p>
-              Thank you for visiting E-books-Online. We hope you find inspiration, entertainment, and knowledge within our pages. If you have any questions or need assistance, feel free to reach out to our customer support team.
+            <AboutFarewell />
+            <p className='text-end text-xl md:text-4xl'>
+              <span className='font-bold text-orange-600'>Happy reading!</span>
             </p>
-            <span>
-              Happy reading!
-            </span>
           </div>
         </article>
       </div>
