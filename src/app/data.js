@@ -1,5 +1,28 @@
 import ebookCover from "../../public/ebookCover.png"
 import psyCover from "../../public/psyCover.jpg"
+import logoFacebook from "../../public/logoFacebook.jpg"
+import logotiktok from "../../public/logoTikTok.png"
+import logoInstagram from "../../public/logoInstagram.png"
+
+/* HOMEPAGE */
+
+export const homePageData = [
+  {
+    title:'Market Page',
+    desc:"Welcome to our world of reading! Explore our curated selection of books available for you. Ready to find your next favorite read? Click the button and discover all the books waiting for you on our marketplace page. Let's start exploring together!",
+    link:'/market',
+  },
+  {
+    title:'About Page',
+    desc:"We want you to get to know us better. On our 'About' page, you'll find official information about our mission, vision, objectives, and the passionate creators behind this community of readers. Discover what drives us and how we're here to enrich your reading experience. Click the button to learn more about us!",
+    link:'/about'
+  },
+  {
+    title:'Contact Page',
+    desc:"Connect with us on all our platforms! On our contact page, you'll find links to our social media and communities where we share exclusive content, updates, and literary events. Join our community of book lovers and stay informed about everything related to books. Click the button to access our profiles and join the conversation!",
+    link:'/contact'
+  },
+]
 
 export const categories = [
   {
@@ -55,5 +78,28 @@ export const aboutData = [
   {
     title:'Join Our Community',
     desc:"More than just a store, we're a community of book enthusiasts. Join us on @E-books-Online to stay updated on the latest literary releases, engage in exciting conversations, and share your own recommendations. We also host online events such as book clubs and author talks, allowing you to connect with others who share your passion for books."
+  },
+]
+
+/* CONTACT */
+
+export const contactData = [
+  {
+    logo:logoFacebook,
+    title: 'FaceBook',
+    desc:'Welcome to the Facebook e-books-online profile! We are passionate about reading and want to share with you a wide selection of exciting titles. From best-selling novels to literary classics, here you will find a variety of books for every taste.',
+    link:'#'
+  },
+  {
+    logo:logoInstagram,
+    title:'Instagram',
+    desc:'We offer a thoughtful selection of titles ranging from the most exciting bestsellers to the most revered literary classics. Our goal is to inspire you through the magic of printed words. Join our community of readers and discover your next adventure within the pages of a book. 🌟 #ReadingOnInstagram #BooksForEveryone',
+    link:'#',
+  },
+  {
+    logo:logotiktok,
+    title:'TikTok',
+    desc:'Welcome to our literary TikTok profile! 📚💫 Here, the magic of literature comes to life in short and creative clips. Explore book reviews, reading recommendations, literary challenges, and more. Join us to discover a world of captivating stories in fun formats. The adventure begins with every swipe! #LiteratureOnTikTok #BookLovers',
+    link:'#',
   },
 ]

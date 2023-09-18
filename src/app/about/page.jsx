@@ -15,7 +15,7 @@ const aboutPage = () => {
           </div>
           <div>
             {aboutData.map(info => (
-              <div className='mb-2 p-3 bg-orange-100' key={info.title}>
+              <div className='mb-2 p-3 bg-orange-100 font-medium hover:text-white  hover:bg-orange-400 transition ease-in-out delay-100 duration-300' key={info.title}>
                 <p className='mb-1'><span className='font-bold'>{info.title}</span></p>
                 <p>{info.desc}</p>
               </div>

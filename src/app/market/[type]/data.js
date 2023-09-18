@@ -15,7 +15,7 @@ export const allTheBooks = {
       id:2,
       title:'ebook-2',
       desc:'desctiption-2',
-      img:''
+      img:ebook01
     },
     {
       id:3,
@@ -27,13 +27,13 @@ export const allTheBooks = {
       id:4,
       title:'ebook-4',
       desc:'desctiption-4',
-      img:''
+      img:ebook01
     },
     {
       id:5,
       title:'ebook-5',
       desc:'desctiption-5',
-      img:''
+      img:ebook01
     }
   ],
   physicalbooks : [
@@ -47,19 +47,19 @@ export const allTheBooks = {
       id:2,
       title:'phsysicalbooks-2',
       desc:'desctiption-2',
-      img:''
+      img:psybook01
     },
     {
       id:33,
       title:'phsysicalbooks-3',
       desc:'desctiption-3',
-      img:''
+      img:psybook01
     },
     {
       id:4,
       title:'phsysicalbooks-4',
       desc:'desctiption-4',
-      img:''
+      img:psybook01
     }
   ]
 }
