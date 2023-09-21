@@ -32,7 +32,7 @@ const customStyles = {
 };
 
 
-const typePage = ({params}) => {
+const TypePage = ({params}) => {
   const data = getData(params.type)
   const { modal, handleResetModal, selectedProduct} = useContext(ModalContext)
 
@@ -71,4 +71,4 @@ const typePage = ({params}) => {
   )
 }
 
-export default typePage
+export default TypePage
