@@ -4,7 +4,7 @@ import { homePageData } from './data'
 
 export default function Home() {
   return (
-    <main>
+    <main className='md:h-[calc(100vh-8rem)]'>
       <div className='flex flex-col gap-4 mt-4 mb-6'>
         <h1 className='text-xl md:text-4xl'>Welcome to the <span className='font-bold text-orange-600'>most important page</span> of ebooks on the web !!</h1>
         <h2 className=' text-lg md:text-2xl'>Discover a new world</h2>

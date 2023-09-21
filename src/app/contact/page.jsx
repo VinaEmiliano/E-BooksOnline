@@ -6,7 +6,7 @@ import { contactData } from '../data'
 
 const contactPage = () => {
   return (
-    <main>
+    <main className='md:h-[calc(100vh-8rem)]'>
       <div>
         <div className='flex flex-col gap-4 mt-4 mb-6'>
           <h1 className='text-xl md:text-4xl'>Join our community through <span className='font-bold text-orange-600'>Social Media !!</span></h1>

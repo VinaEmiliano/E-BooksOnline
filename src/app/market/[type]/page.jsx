@@ -23,11 +23,11 @@ const customStyles = {
     left: '50%',
     right: 'auto',
     bottom: 'auto',
-    marginRight: '-50%',
+    /* marginRight: '30%', */
     transform: 'translate(-50%, -50%)',
     backgroundColor: 'rgb(165 180 252)',
-    width: '50%',
-    height: '40%',
+    width:'40%'
+/*      height: 'max-content' */
   },
 };
 
@@ -41,8 +41,8 @@ const typePage = ({params}) => {
   }, []);
   
   return(
-    <div id='modalElement'>
-      <div className='grid grid-cols-2 justify-items-center my-8 py-4 gap-y-10'>
+    <main id='modalElement' /* className='md:h-[calc(100vh-9rem)]' */>
+      <div className='grid grid-cols-1 md:grid-cols-2 justify-items-center my-8 py-4 gap-y-10'>
         {data.map( item => (
           <ButtonProduct
             key={item.id}
@@ -55,19 +55,19 @@ const typePage = ({params}) => {
         style={customStyles}
         contentLabel="Specific product"
       >
-        <div>
+        <div className='flex flex-col justify-center items-center gap-6 m-auto w-full'>
           <button
             onClick={handleResetModal}
-            className='bg-red-500 p-2 rounded-md text-white'
+            className='ml-auto bg-red-500 p-2 rounded-md text-white'
           >
-            X
+            x
           </button>
-          <p>{selectedProduct.title}</p>
-          <Image src={selectedProduct.img} height={50} width={50} alt='agregar el title' />
-          <p>{selectedProduct.desc}</p>
+          <p className='font-semibold text-2xl'>{selectedProduct.title}</p>
+          <Image src={selectedProduct.img} height={200} width={200} alt='agregar el title' />
+          <p className='m-auto w- md:w-1/2'>{selectedProduct.desc}</p>
         </div>
       </Modal>
-    </div>
+    </main>
   )
 }
 
