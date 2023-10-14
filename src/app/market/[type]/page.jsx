@@ -41,7 +41,7 @@ const TypePage = ({params}) => {
   }, []);
   
   return(
-    <main id='modalElement' /* className='md:h-[calc(100vh-9rem)]' */>
+    <main id='modalElement' className='landscape:h-[54rem] md:h-[calc(100vh-7rem)] lg:landscape:h-[48rem]'>
       <div className='grid grid-cols-1 md:grid-cols-2 justify-items-center my-8 py-4 gap-y-10'>
         {data.map( item => (
           <ButtonProduct

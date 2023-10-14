@@ -11,8 +11,8 @@ const navigation = [
 
 const Navbar = () => {
   return (
-    <div className='flex items-center justify-around px-3 py-8 bg-indigo-300 h-9'>{navigation.map(nav => (
-      <Link href={nav.href} key={nav.name} className='p-2 rounded-md hover:bg-indigo-500 hover:text-white transition ease-in-out delay-100 duration-300'>{nav.name}</Link>))}
+    <div className='flex items-center justify-around px-3 py-5 bg-indigo-300 h-9'>{navigation.map(nav => (
+      <Link href={nav.href} key={nav.name} className='p-1 rounded-md hover:bg-indigo-500 hover:text-white transition ease-in-out delay-100 duration-300'>{nav.name}</Link>))}
     </div>
   )
 }

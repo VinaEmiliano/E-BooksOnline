@@ -15,10 +15,10 @@ export default function RootLayout({ children }) {
 
   return (
     <html lang="en">
-      <body className='h-screen'>
+      <body className=''>
         <ModalProvider>
           <Navbar/>
-          <div className='w-4/5 m-auto'>
+          <div className='  w-4/5 m-auto'>
             {children}
           </div>
           <Footer/>
